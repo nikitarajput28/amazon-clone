@@ -1,0 +1,46 @@
+.subheader {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #232F3E;
+    position: sticky;
+    top: 0;
+  }
+  
+  .subheader__optionLine {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+  
+  .subheader__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .subheader__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+.subimage{
+    height: 50px; 
+    width: 400px; 
+    overflow: hidden; 
+    position: relative; 
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
